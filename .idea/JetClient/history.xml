@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1711302972090" />
+          <option name="id" value="4f08c8b2-e12e-4e96-9843-3cea5acd749b" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8080" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3sibWVzc2FnZSI6InRoaXMgaXMgdGhlIGluZGV4IHBhZ2UgZm9yIEZhc3RBUEkgd2ViIGFwcGxpY2F0aW9uIn1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;message&quot; : &quot;this is the index page for FastAPI web application&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 24 Mar 2024 17:56:10 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="66" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="4f08c8b2-e12e-4e96-9843-3cea5acd749b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;message&quot;:&quot;this is the index page for FastAPI web application&quot;}]" />
+              <option name="size" value="66" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711302981661" />
+          <option name="id" value="52d60120-91c8-4880-b32d-49a63dabe138" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8080" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3sibWVzc2FnZSI6InRoaXMgaXMgdGhlIGluZGV4IHBhZ2UgZm9yIEZhc3RBUEkgd2ViIGFwcGxpY2F0aW9uIn1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;message&quot; : &quot;this is the index page for FastAPI web application&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 24 Mar 2024 17:56:20 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="66" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="52d60120-91c8-4880-b32d-49a63dabe138" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;message&quot;:&quot;this is the index page for FastAPI web application&quot;}]" />
+              <option name="size" value="66" />
+              <option name="time" value="9" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711303312547" />
+          <option name="id" value="af1d5390-f61a-4a41-9340-f4cb29f67ccf" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8080" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="W3sibWVzc2FnZSI6InRoaXMgaXMgdGhlIGluZGV4IHBhZ2UgZm9yIEZhc3RBUEkgd2ViIGFwcGxpY2F0aW9uIn1d" />
+              <option name="bodyString" value="[&#10;  {&#10;    &quot;message&quot; : &quot;this is the index page for FastAPI web application&quot;&#10;  }&#10;]" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Sun, 24 Mar 2024 18:01:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="66" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="af1d5390-f61a-4a41-9340-f4cb29f67ccf" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="[{&quot;message&quot;:&quot;this is the index page for FastAPI web application&quot;}]" />
+              <option name="size" value="66" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>
