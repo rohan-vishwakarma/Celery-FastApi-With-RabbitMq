@@ -4,27 +4,34 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1711302972090" />
-          <option name="id" value="4f08c8b2-e12e-4e96-9843-3cea5acd749b" />
+          <option name="dateTime" value="1711354478934" />
+          <option name="id" value="bb4f20ff-822d-412f-95cc-b55cf43e6ec1" />
           <option name="request">
             <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8080" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="W3sibWVzc2FnZSI6InRoaXMgaXMgdGhlIGluZGV4IHBhZ2UgZm9yIEZhc3RBUEkgd2ViIGFwcGxpY2F0aW9uIn1d" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;message&quot; : &quot;this is the index page for FastAPI web application&quot;&#10;  }&#10;]" />
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Sun, 24 Mar 2024 17:56:10 GMT" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:38 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -32,7 +39,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="66" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -40,83 +47,44 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="4f08c8b2-e12e-4e96-9843-3cea5acd749b" />
+              <option name="id" value="bb4f20ff-822d-412f-95cc-b55cf43e6ec1" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;message&quot;:&quot;this is the index page for FastAPI web application&quot;}]" />
-              <option name="size" value="66" />
-              <option name="time" value="10" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711302981661" />
-          <option name="id" value="52d60120-91c8-4880-b32d-49a63dabe138" />
-          <option name="request">
-            <requestState>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8080" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="W3sibWVzc2FnZSI6InRoaXMgaXMgdGhlIGluZGV4IHBhZ2UgZm9yIEZhc3RBUEkgd2ViIGFwcGxpY2F0aW9uIn1d" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;message&quot; : &quot;this is the index page for FastAPI web application&quot;&#10;  }&#10;]" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Sun, 24 Mar 2024 17:56:20 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="66" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="52d60120-91c8-4880-b32d-49a63dabe138" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;message&quot;:&quot;this is the index page for FastAPI web application&quot;}]" />
-              <option name="size" value="66" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
               <option name="time" value="9" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711303312547" />
-          <option name="id" value="af1d5390-f61a-4a41-9340-f4cb29f67ccf" />
+          <option name="dateTime" value="1711354479124" />
+          <option name="id" value="0747ad7d-305e-442e-b7fd-ef147e1445ca" />
           <option name="request">
             <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8080" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="W3sibWVzc2FnZSI6InRoaXMgaXMgdGhlIGluZGV4IHBhZ2UgZm9yIEZhc3RBUEkgd2ViIGFwcGxpY2F0aW9uIn1d" />
-              <option name="bodyString" value="[&#10;  {&#10;    &quot;message&quot; : &quot;this is the index page for FastAPI web application&quot;&#10;  }&#10;]" />
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Sun, 24 Mar 2024 18:01:51 GMT" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:38 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -124,7 +92,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="66" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -132,11 +100,965 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="af1d5390-f61a-4a41-9340-f4cb29f67ccf" />
+              <option name="id" value="0747ad7d-305e-442e-b7fd-ef147e1445ca" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="[{&quot;message&quot;:&quot;this is the index page for FastAPI web application&quot;}]" />
-              <option name="size" value="66" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="6" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354479311" />
+          <option name="id" value="59c97e8e-dd13-44cc-ac50-7f18c9818b16" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="59c97e8e-dd13-44cc-ac50-7f18c9818b16" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="8" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354479483" />
+          <option name="id" value="e952f653-0323-41b7-bf4e-0555cc44ac3a" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e952f653-0323-41b7-bf4e-0555cc44ac3a" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="9" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354479722" />
+          <option name="id" value="b699286c-b11c-43f9-a1e7-e1214907b4bc" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b699286c-b11c-43f9-a1e7-e1214907b4bc" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="8" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354491605" />
+          <option name="id" value="70630c0b-d958-45ca-b06a-bad6022948b5" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOlt7InR5cGUiOiJtaXNzaW5nIiwibG9jIjpbImhlYWRlciIsIngtdG9rZW4iXSwibXNnIjoiRmllbGQgcmVxdWlyZWQiLCJpbnB1dCI6bnVsbCwidXJsIjoiaHR0cHM6Ly9lcnJvcnMucHlkYW50aWMuZGV2LzIuNi92L21pc3NpbmcifV19" />
+              <option name="bodyString" value="{&#10;  &quot;detail&quot; : [&#10;    {&#10;      &quot;type&quot; : &quot;missing&quot;,&#10;      &quot;loc&quot; : [&#10;        &quot;header&quot;,&#10;        &quot;x-token&quot;&#10;      ],&#10;      &quot;msg&quot; : &quot;Field required&quot;,&#10;      &quot;input&quot; : null,&#10;      &quot;url&quot; : &quot;https://errors.pydantic.dev/2.6/v/missing&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="422" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="144" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="70630c0b-d958-45ca-b06a-bad6022948b5" />
+              <option name="message" value="Unprocessable Entity" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;detail&quot;:[{&quot;type&quot;:&quot;missing&quot;,&quot;loc&quot;:[&quot;header&quot;,&quot;x-token&quot;],&quot;msg&quot;:&quot;Field required&quot;,&quot;input&quot;:null,&quot;url&quot;:&quot;https://errors.pydantic.dev/2.6/v/missing&quot;}]}" />
+              <option name="size" value="144" />
+              <option name="time" value="503" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354491698" />
+          <option name="id" value="b114b8df-58f8-41d5-8fbf-538be25236b6" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOlt7InR5cGUiOiJtaXNzaW5nIiwibG9jIjpbImhlYWRlciIsIngtdG9rZW4iXSwibXNnIjoiRmllbGQgcmVxdWlyZWQiLCJpbnB1dCI6bnVsbCwidXJsIjoiaHR0cHM6Ly9lcnJvcnMucHlkYW50aWMuZGV2LzIuNi92L21pc3NpbmcifV19" />
+              <option name="bodyString" value="{&#10;  &quot;detail&quot; : [&#10;    {&#10;      &quot;type&quot; : &quot;missing&quot;,&#10;      &quot;loc&quot; : [&#10;        &quot;header&quot;,&#10;        &quot;x-token&quot;&#10;      ],&#10;      &quot;msg&quot; : &quot;Field required&quot;,&#10;      &quot;input&quot; : null,&#10;      &quot;url&quot; : &quot;https://errors.pydantic.dev/2.6/v/missing&quot;&#10;    }&#10;  ]&#10;}" />
+              <option name="code" value="422" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:14:51 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="144" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b114b8df-58f8-41d5-8fbf-538be25236b6" />
+              <option name="message" value="Unprocessable Entity" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;detail&quot;:[{&quot;type&quot;:&quot;missing&quot;,&quot;loc&quot;:[&quot;header&quot;,&quot;x-token&quot;],&quot;msg&quot;:&quot;Field required&quot;,&quot;input&quot;:null,&quot;url&quot;:&quot;https://errors.pydantic.dev/2.6/v/missing&quot;}]}" />
+              <option name="size" value="144" />
+              <option name="time" value="8" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354518282" />
+          <option name="id" value="5fbc8de9-695c-417b-903b-c591d42a9324" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5fbc8de9-695c-417b-903b-c591d42a9324" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="363" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354518471" />
+          <option name="id" value="7910d7d3-50ee-41c4-a417-37fc2fccb9f9" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="7910d7d3-50ee-41c4-a417-37fc2fccb9f9" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="5" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354518676" />
+          <option name="id" value="46207f2e-58b9-4bfd-bb86-0241db4723bf" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="46207f2e-58b9-4bfd-bb86-0241db4723bf" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354518895" />
+          <option name="id" value="ad423bb6-5fd7-40b1-b7b5-1b6bf811d111" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ad423bb6-5fd7-40b1-b7b5-1b6bf811d111" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354519046" />
+          <option name="id" value="082b12f6-988d-4f25-956a-925427fa6446" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="082b12f6-988d-4f25-956a-925427fa6446" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="14" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354519171" />
+          <option name="id" value="ca91849c-3116-487c-9199-7165e42dd14e" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="ca91849c-3116-487c-9199-7165e42dd14e" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354519352" />
+          <option name="id" value="330b8046-82b3-45c9-bf6c-dccc017ee367" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="330b8046-82b3-45c9-bf6c-dccc017ee367" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354519570" />
+          <option name="id" value="bada0c27-026c-48d8-8df9-9bd1a5d9abe9" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:15:19 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="bada0c27-026c-48d8-8df9-9bd1a5d9abe9" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="8" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354598885" />
+          <option name="id" value="8c2c4a25-eb96-4b9b-a195-ff4ccc4d7a6d" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:16:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="8c2c4a25-eb96-4b9b-a195-ff4ccc4d7a6d" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="16" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354599123" />
+          <option name="id" value="0e64b3b0-ad4f-46fa-9934-94a433fa0426" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:16:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="0e64b3b0-ad4f-46fa-9934-94a433fa0426" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354599519" />
+          <option name="id" value="003140fb-8e09-4a2b-9479-404616f0f364" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:16:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="003140fb-8e09-4a2b-9479-404616f0f364" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="15" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354599709" />
+          <option name="id" value="c3ccf592-96a7-4a08-ada9-79ad363bff04" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJwbHVtYnVzIjp7Im5hbWUiOiJQbHVtYnVzIn0sImd1biI6eyJuYW1lIjoiUG9ydGFsIEd1biJ9fQ==" />
+              <option name="bodyString" value="{&#10;  &quot;plumbus&quot; : {&#10;    &quot;name&quot; : &quot;Plumbus&quot;&#10;  },&#10;  &quot;gun&quot; : {&#10;    &quot;name&quot; : &quot;Portal Gun&quot;&#10;  }&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:16:39 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c3ccf592-96a7-4a08-ada9-79ad363bff04" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;plumbus&quot;:{&quot;name&quot;:&quot;Plumbus&quot;},&quot;gun&quot;:{&quot;name&quot;:&quot;Portal Gun&quot;}}" />
+              <option name="size" value="58" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711354667604" />
+          <option name="id" value="df52cc5e-60e9-4820-adad-2411eed46ca5" />
+          <option name="request">
+            <requestState>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="disabled" value="true" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/items/12" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJJdGVtIG5vdCBmb3VuZCJ9" />
+              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Item not found&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Mon, 25 Mar 2024 08:17:46 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="27" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="df52cc5e-60e9-4820-adad-2411eed46ca5" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Item not found&quot;}" />
+              <option name="size" value="27" />
               <option name="time" value="15" />
             </responseState>
           </option>
