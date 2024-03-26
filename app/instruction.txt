@@ -1,1 +1,2 @@
 To start a work --->   celery -A app.CeleryApp worker --loglevel=INFO
+celery -A app.CeleryApp worker --pool=solo -l info
