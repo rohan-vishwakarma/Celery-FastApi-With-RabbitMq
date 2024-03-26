@@ -4,8 +4,8 @@
     <option name="requestHistoryStates">
       <list>
         <requestHistoryState>
-          <option name="dateTime" value="1711448116961" />
-          <option name="id" value="080b8f02-bec7-46fb-8ddd-e042f5f62c21" />
+          <option name="dateTime" value="1711451381846" />
+          <option name="id" value="9ab1843a-e4fd-4378-be30-5354e797f4af" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -15,12 +15,12 @@
                       <formDataParameterState>
                         <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="14" />
                       </formDataParameterState>
                       <formDataParameterState>
                         <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -38,20 +38,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/8deea45e-8c69-45c1-96f6-5ce89b64dd1a" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/060c68ca-47e2-436a-adac-b9ebcec7b1b2" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDhkZWVhNDVlLThjNjktNDVjMS05NmY2LTVjZTg5YjY0ZGQxYSBpcyI6IlBFTkRJTkcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot; : &quot;PENDING&quot;&#10;}" />
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDA2MGM2OGNhLTQ3ZTItNDM2YS1hZGFjLWI5ZWJjZWM3YjFiMiBpcyI6IlBFTkRJTkcifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  060c68ca-47e2-436a-adac-b9ebcec7b1b2 is&quot; : &quot;PENDING&quot;&#10;}" />
               <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:15:16 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 11:09:40 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -67,18 +67,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="080b8f02-bec7-46fb-8ddd-e042f5f62c21" />
+              <option name="id" value="9ab1843a-e4fd-4378-be30-5354e797f4af" />
               <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot;:&quot;PENDING&quot;}" />
+              <option name="rawBodyString" value="{&quot;the status for the  060c68ca-47e2-436a-adac-b9ebcec7b1b2 is&quot;:&quot;PENDING&quot;}" />
               <option name="size" value="73" />
-              <option name="time" value="8" />
+              <option name="time" value="16" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711448177553" />
-          <option name="id" value="df2cf7f7-7075-4ef9-a9af-0419db7dd2d8" />
+          <option name="dateTime" value="1711451482805" />
+          <option name="id" value="80d52eca-5a40-4975-b9c0-2d60c213f35d" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -86,14 +86,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -109,374 +107,9 @@
                 </list>
               </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
+              <option name="method" value="PUT" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/8deea45e-8c69-45c1-96f6-5ce89b64dd1a" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDhkZWVhNDVlLThjNjktNDVjMS05NmY2LTVjZTg5YjY0ZGQxYSBpcyI6IlBFTkRJTkcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot; : &quot;PENDING&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:16:16 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="73" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="df2cf7f7-7075-4ef9-a9af-0419db7dd2d8" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot;:&quot;PENDING&quot;}" />
-              <option name="size" value="73" />
-              <option name="time" value="204" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711448178444" />
-          <option name="id" value="0ea5255c-0f88-4978-9244-fc27eb125c9a" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/8deea45e-8c69-45c1-96f6-5ce89b64dd1a" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDhkZWVhNDVlLThjNjktNDVjMS05NmY2LTVjZTg5YjY0ZGQxYSBpcyI6IlBFTkRJTkcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot; : &quot;PENDING&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:16:17 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="73" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="0ea5255c-0f88-4978-9244-fc27eb125c9a" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot;:&quot;PENDING&quot;}" />
-              <option name="size" value="73" />
-              <option name="time" value="11" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711448178880" />
-          <option name="id" value="5cfa8266-23d3-48d1-a456-8d4236bcaef5" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/8deea45e-8c69-45c1-96f6-5ce89b64dd1a" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDhkZWVhNDVlLThjNjktNDVjMS05NmY2LTVjZTg5YjY0ZGQxYSBpcyI6IlBFTkRJTkcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot; : &quot;PENDING&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:16:18 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="73" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="5cfa8266-23d3-48d1-a456-8d4236bcaef5" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot;:&quot;PENDING&quot;}" />
-              <option name="size" value="73" />
-              <option name="time" value="7" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711448179096" />
-          <option name="id" value="4839e4a6-9ab0-4c98-81bd-421bb03ad734" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/8deea45e-8c69-45c1-96f6-5ce89b64dd1a" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDhkZWVhNDVlLThjNjktNDVjMS05NmY2LTVjZTg5YjY0ZGQxYSBpcyI6IlBFTkRJTkcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot; : &quot;PENDING&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:16:18 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="73" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="4839e4a6-9ab0-4c98-81bd-421bb03ad734" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot;:&quot;PENDING&quot;}" />
-              <option name="size" value="73" />
-              <option name="time" value="6" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711448179281" />
-          <option name="id" value="dfa36100-6099-4a10-ae73-9cfcc0e6be99" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/8deea45e-8c69-45c1-96f6-5ce89b64dd1a" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIDhkZWVhNDVlLThjNjktNDVjMS05NmY2LTVjZTg5YjY0ZGQxYSBpcyI6IlBFTkRJTkcifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot; : &quot;PENDING&quot;&#10;}" />
-              <option name="code" value="200" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:16:18 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="73" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="dfa36100-6099-4a10-ae73-9cfcc0e6be99" />
-              <option name="message" value="OK" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;the status for the  8deea45e-8c69-45c1-96f6-5ce89b64dd1a is&quot;:&quot;PENDING&quot;}" />
-              <option name="size" value="73" />
-              <option name="time" value="7" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711449510952" />
-          <option name="id" value="0a6d0bed-a6e3-4afa-b3ea-3c81c0c7effb" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="GET" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
@@ -489,7 +122,7 @@
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:38:30 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 11:11:22 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -509,18 +142,515 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="0a6d0bed-a6e3-4afa-b3ea-3c81c0c7effb" />
+              <option name="id" value="80d52eca-5a40-4975-b9c0-2d60c213f35d" />
               <option name="message" value="Method Not Allowed" />
               <option name="prettyResponseType" value="JSON" />
               <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Method Not Allowed&quot;}" />
               <option name="size" value="31" />
+              <option name="time" value="1" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711451486875" />
+          <option name="id" value="a7b2878f-74fe-4a9f-96c7-314b045e6f8b" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="POST" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiJhODU3ZDBlNi1jODBkLTQ5YTUtYWNlMC1mNDhhMGZjNTg4YzMifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;a857d0e6-c80d-49a5-ace0-f48a0fc588c3&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 11:11:26 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="a7b2878f-74fe-4a9f-96c7-314b045e6f8b" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;a857d0e6-c80d-49a5-ace0-f48a0fc588c3&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463030929" />
+          <option name="id" value="34302eb1-20e4-4e66-81f9-e576af861960" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="POST" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiI1MTk4MWMyMy0xMzZjLTQ5OTMtYjc5MC1iNzc2NjM1MDRlZGYifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;51981c23-136c-4993-b790-b77663504edf&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:23:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="34302eb1-20e4-4e66-81f9-e576af861960" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;51981c23-136c-4993-b790-b77663504edf&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="267" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463148881" />
+          <option name="id" value="843e8209-146d-4e7c-982d-c607f7918bb7" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="POST" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiJkYjYyODU4ZS02NGZlLTQxM2ItYTM4Ni1kZTM3Zjc4ZmFhYjUifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;db62858e-64fe-413b-a386-de37f78faab5&quot;&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:25:48 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="58" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="843e8209-146d-4e7c-982d-c607f7918bb7" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;db62858e-64fe-413b-a386-de37f78faab5&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="309" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463162073" />
+          <option name="id" value="06f00751-8acf-4550-8952-e1de0efd66ee" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:01 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="06f00751-8acf-4550-8952-e1de0efd66ee" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
+              <option name="time" value="71" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463163319" />
+          <option name="id" value="3ebb8092-ab0a-4b50-8ff9-c42e9787959d" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:02 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3ebb8092-ab0a-4b50-8ff9-c42e9787959d" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463164109" />
+          <option name="id" value="f2707f60-77ff-4b74-b79c-0bc3ef747fa0" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:03 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f2707f60-77ff-4b74-b79c-0bc3ef747fa0" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463164380" />
+          <option name="id" value="de594830-5be4-4036-a3fb-525e23e1e201" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:03 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="de594830-5be4-4036-a3fb-525e23e1e201" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
               <option name="time" value="9" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449515134" />
-          <option name="id" value="9ee859a5-c87c-42f0-99f5-4f02bb50a7a6" />
+          <option name="dateTime" value="1711463164827" />
+          <option name="id" value="31cdc4f0-7457-426a-a976-0e6505e08f8f" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -528,14 +658,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -551,22 +679,22 @@
                 </list>
               </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:38:34 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:03 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -574,7 +702,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="68" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -582,18 +710,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="9ee859a5-c87c-42f0-99f5-4f02bb50a7a6" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="31cdc4f0-7457-426a-a976-0e6505e08f8f" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="3" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
+              <option name="time" value="8" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449542266" />
-          <option name="id" value="d69b3ed5-84e6-424f-a821-b6be17b70914" />
+          <option name="dateTime" value="1711463165147" />
+          <option name="id" value="fd3cc3a5-697b-4fc3-a365-12c4367aae96" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -601,14 +729,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -624,22 +750,22 @@
                 </list>
               </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:39:02 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:05 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -647,7 +773,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="68" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -655,18 +781,89 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="d69b3ed5-84e6-424f-a821-b6be17b70914" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="fd3cc3a5-697b-4fc3-a365-12c4367aae96" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1711463165444" />
+          <option name="id" value="1193e3f5-4036-48a1-a667-0e02c965004f" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="formData">
+                    <list>
+                      <formDataParameterState>
+                        <option name="key" value="num1" />
+                        <option name="value" value="111" />
+                      </formDataParameterState>
+                      <formDataParameterState>
+                        <option name="key" value="num2" />
+                        <option name="value" value="31" />
+                      </formDataParameterState>
+                    </list>
+                  </option>
+                  <option name="type" value="FORM_DATA" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="multipart/form-data" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
+              <option name="method" value="GET" />
+              <option name="name" value="pp" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6bnVsbH0=" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : null&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="date" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:26:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="server" />
+                    <option name="value" value="uvicorn" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-length" />
+                    <option name="value" value="68" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="content-type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="1193e3f5-4036-48a1-a667-0e02c965004f" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:null}" />
+              <option name="size" value="68" />
               <option name="time" value="9" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449565497" />
-          <option name="id" value="143f5fd1-4c4a-494b-a90e-8ca465509b43" />
+          <option name="dateTime" value="1711463317509" />
+          <option name="id" value="114f54a9-26cd-4d7c-8327-6eb040af0507" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -674,14 +871,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -697,22 +892,22 @@
                 </list>
               </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6MTQyfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : 142&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:39:24 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:28:36 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -720,7 +915,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="67" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -728,18 +923,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="143f5fd1-4c4a-494b-a90e-8ca465509b43" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="114f54a9-26cd-4d7c-8327-6eb040af0507" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="9" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:142}" />
+              <option name="size" value="67" />
+              <option name="time" value="196" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449607086" />
-          <option name="id" value="77070bc2-5558-4615-9bff-2bd81cbc419f" />
+          <option name="dateTime" value="1711463336972" />
+          <option name="id" value="fda7b791-27c5-4131-a39b-64270370cda4" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -747,14 +942,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -770,22 +963,22 @@
                 </list>
               </option>
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
+              <option name="method" value="GET" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask/db62858e-64fe-413b-a386-de37f78faab5" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJ0aGUgc3RhdHVzIGZvciB0aGUgIGRiNjI4NThlLTY0ZmUtNDEzYi1hMzg2LWRlMzdmNzhmYWFiNSBpcyI6MTQyfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot; : 142&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:06 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:28:56 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -793,7 +986,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="67" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -801,18 +994,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="77070bc2-5558-4615-9bff-2bd81cbc419f" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="fda7b791-27c5-4131-a39b-64270370cda4" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="24" />
+              <option name="rawBodyString" value="{&quot;the status for the  db62858e-64fe-413b-a386-de37f78faab5 is&quot;:142}" />
+              <option name="size" value="67" />
+              <option name="time" value="16" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449611971" />
-          <option name="id" value="3ecb20fd-bd61-4254-8ea7-a29d2c2b1bc5" />
+          <option name="dateTime" value="1711463344672" />
+          <option name="id" value="507f228c-a2da-4415-805c-2660419c4e0f" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -820,14 +1013,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="31" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -845,20 +1036,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="POST" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiJlYzcyNjFmMS0xOGM5LTRmNDYtODQyNS1kNWRkODNkMWZmNmIifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;ec7261f1-18c9-4f46-8425-d5dd83d1ff6b&quot;&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:11 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:29:04 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -866,7 +1057,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -874,18 +1065,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="3ecb20fd-bd61-4254-8ea7-a29d2c2b1bc5" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="507f228c-a2da-4415-805c-2660419c4e0f" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="6" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;ec7261f1-18c9-4f46-8425-d5dd83d1ff6b&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="137" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449612905" />
-          <option name="id" value="1010337e-539b-4aeb-9c1d-074acc1c7a54" />
+          <option name="dateTime" value="1711463470881" />
+          <option name="id" value="08c07ca2-8bbd-4422-b909-1799c9584587" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -893,14 +1084,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="111" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="1111" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -918,20 +1107,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="POST" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiJjYzllYTYwZi03NjVmLTQ0OGEtYmU2OC00YTY0MzlhMWZmOGYifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;cc9ea60f-765f-448a-be68-4a6439a1ff8f&quot;&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:12 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:31:10 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -939,7 +1128,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -947,18 +1136,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="1010337e-539b-4aeb-9c1d-074acc1c7a54" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="08c07ca2-8bbd-4422-b909-1799c9584587" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="6" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;cc9ea60f-765f-448a-be68-4a6439a1ff8f&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="258" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449613143" />
-          <option name="id" value="475d3694-4fa4-454c-99b2-993e01775968" />
+          <option name="dateTime" value="1711463567714" />
+          <option name="id" value="33475eee-38fe-4249-9083-8978b7c08087" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -966,14 +1155,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="1112" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="1111" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -991,20 +1178,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="POST" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiIyZDczMzUwZi0zZWNiLTQ3NTUtOTk5Ny1mNzJjOGE4N2JiZWYifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;2d73350f-3ecb-4755-9997-f72c8a87bbef&quot;&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:12 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:32:47 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -1012,7 +1199,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -1020,18 +1207,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="475d3694-4fa4-454c-99b2-993e01775968" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="33475eee-38fe-4249-9083-8978b7c08087" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="4" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;2d73350f-3ecb-4755-9997-f72c8a87bbef&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="304" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449613342" />
-          <option name="id" value="8901ae8e-8cfd-492b-a13b-f41498cbb81b" />
+          <option name="dateTime" value="1711463902325" />
+          <option name="id" value="310681d3-f745-4b81-b81c-79ff22f27f14" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1039,14 +1226,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="1112" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="544" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -1064,20 +1249,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="POST" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiI2ZTAzY2M5Ni1jZTY1LTQyYjMtOTgxMS0xNmY1M2VhMThjZGEifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;6e03cc96-ce65-42b3-9811-16f53ea18cda&quot;&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:12 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:38:21 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -1085,7 +1270,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -1093,18 +1278,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="8901ae8e-8cfd-492b-a13b-f41498cbb81b" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="310681d3-f745-4b81-b81c-79ff22f27f14" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="11" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;6e03cc96-ce65-42b3-9811-16f53ea18cda&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="7" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449613553" />
-          <option name="id" value="aedbb7c8-d076-4224-a1e4-549b4ade09ec" />
+          <option name="dateTime" value="1711464046179" />
+          <option name="id" value="cb6ad4c5-9e62-4a5a-9e78-73ac371efe64" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1112,14 +1297,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="11" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="90" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -1137,20 +1320,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="POST" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiI0MzI2ZjRlYy1hODg0LTQwYzctODBlNS04M2VkNTMxOWRlMDUifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;4326f4ec-a884-40c7-80e5-83ed5319de05&quot;&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:12 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:40:45 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -1158,7 +1341,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -1166,18 +1349,18 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="aedbb7c8-d076-4224-a1e4-549b4ade09ec" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="cb6ad4c5-9e62-4a5a-9e78-73ac371efe64" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="5" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;4326f4ec-a884-40c7-80e5-83ed5319de05&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="220" />
             </responseState>
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1711449643309" />
-          <option name="id" value="b6300ecf-6f50-428b-860c-ec65b7e1ec2d" />
+          <option name="dateTime" value="1711464105324" />
+          <option name="id" value="20a3c182-3c5b-481b-ae8c-644944358ff0" />
           <option name="request">
             <requestState>
               <option name="body">
@@ -1185,14 +1368,12 @@
                   <option name="formData">
                     <list>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num1" />
-                        <option name="value" value="1" />
+                        <option name="value" value="22" />
                       </formDataParameterState>
                       <formDataParameterState>
-                        <option name="disabled" value="true" />
                         <option name="key" value="num2" />
-                        <option name="value" value="3" />
+                        <option name="value" value="90" />
                       </formDataParameterState>
                     </list>
                   </option>
@@ -1210,20 +1391,20 @@
               <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
               <option name="method" value="POST" />
               <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
+              <option name="url" value="http://127.0.0.1:8000/celerytask" />
             </requestState>
           </option>
           <option name="response">
             <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
+              <option name="bodyBytesBase64" value="eyJUYXNrIFJlc3VsdCBpcyAiOiI5NDY0OWVlNi1jMTk1LTQ5NmUtOGFkMS01NmMwZGIyYTU0MWUifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;Task Result is &quot; : &quot;94649ee6-c195-496e-8ad1-56c0db2a541e&quot;&#10;}" />
+              <option name="code" value="200" />
               <option name="contentType" value="application/json" />
               <option name="headers">
                 <list>
                   <headerState>
                     <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:43 GMT" />
+                    <option name="value" value="Tue, 26 Mar 2024 14:41:44 GMT" />
                   </headerState>
                   <headerState>
                     <option name="key" value="server" />
@@ -1231,7 +1412,7 @@
                   </headerState>
                   <headerState>
                     <option name="key" value="content-length" />
-                    <option name="value" value="43" />
+                    <option name="value" value="58" />
                   </headerState>
                   <headerState>
                     <option name="key" value="content-type" />
@@ -1239,231 +1420,12 @@
                   </headerState>
                 </list>
               </option>
-              <option name="id" value="b6300ecf-6f50-428b-860c-ec65b7e1ec2d" />
-              <option name="message" value="Bad Request" />
+              <option name="id" value="20a3c182-3c5b-481b-ae8c-644944358ff0" />
+              <option name="message" value="OK" />
               <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="11" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711449658182" />
-          <option name="id" value="099cd4b3-d8e9-4a8c-b08f-41690e8bf9d3" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:40:57 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="099cd4b3-d8e9-4a8c-b08f-41690e8bf9d3" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="12" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711449661291" />
-          <option name="id" value="e4a5d3a6-fdf7-4610-8888-3751156e72dc" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:41:01 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="e4a5d3a6-fdf7-4610-8888-3751156e72dc" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="1786" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1711449662750" />
-          <option name="id" value="81a55378-6baa-4f15-88f2-4c03d8d48fed" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="formData">
-                    <list>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num1" />
-                        <option name="value" value="1" />
-                      </formDataParameterState>
-                      <formDataParameterState>
-                        <option name="disabled" value="true" />
-                        <option name="key" value="num2" />
-                        <option name="value" value="3" />
-                      </formDataParameterState>
-                    </list>
-                  </option>
-                  <option name="type" value="FORM_DATA" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="multipart/form-data" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-              <option name="method" value="POST" />
-              <option name="name" value="pp" />
-              <option name="url" value="http://127.0.0.1:8000/celerytask/" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJkZXRhaWwiOiJNaXNzaW5nIGJvdW5kYXJ5IGluIG11bHRpcGFydC4ifQ==" />
-              <option name="bodyString" value="{&#10;  &quot;detail&quot; : &quot;Missing boundary in multipart.&quot;&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="date" />
-                    <option name="value" value="Tue, 26 Mar 2024 10:41:02 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="server" />
-                    <option name="value" value="uvicorn" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-length" />
-                    <option name="value" value="43" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="content-type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="81a55378-6baa-4f15-88f2-4c03d8d48fed" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;detail&quot;:&quot;Missing boundary in multipart.&quot;}" />
-              <option name="size" value="43" />
-              <option name="time" value="3" />
+              <option name="rawBodyString" value="{&quot;Task Result is &quot;:&quot;94649ee6-c195-496e-8ad1-56c0db2a541e&quot;}" />
+              <option name="size" value="58" />
+              <option name="time" value="261" />
             </responseState>
           </option>
         </requestHistoryState>

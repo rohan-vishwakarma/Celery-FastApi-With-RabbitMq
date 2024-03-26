@@ -11,7 +11,7 @@ from app.CeleryApp import celery
 async def addition_task(num1 : Annotated[str, Form()], num2: Annotated[str, Form()]):
     taskk = celery.send_task('app.CeleryApp.addition', kwargs={"num1" : int(num1), "num2" : int(num2)})
     print(f"Celery Task invoked for addition program, initial state is {taskk.status} & task Id is {taskk.id}")
-    return {"Task Result is ": taskk.state}
+    return {"Task Result is ": taskk.id}
 
 
 @task_router.get('/{id}')
@@ -19,7 +19,7 @@ def get_status(id):
     try:
         st = celery.AsyncResult(id)
         print(st.state)
-        return {f"the status for the  {id} is" : st.state}
+        return {f"the status for the  {id} is" : st.result}
     except Exception as e:
         print("Exception Occurred")
         print(e)
