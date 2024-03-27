@@ -15,11 +15,11 @@
                       <list>
                         <formDataParameterState>
                           <option name="key" value="num1" />
-                          <option name="value" value="22" />
+                          <option name="value" value="99" />
                         </formDataParameterState>
                         <formDataParameterState>
                           <option name="key" value="num2" />
-                          <option name="value" value="90" />
+                          <option name="value" value="88" />
                         </formDataParameterState>
                       </list>
                     </option>
@@ -35,9 +35,9 @@
                   </list>
                 </option>
                 <option name="id" value="6bba094e-a6cd-4b0e-91de-83c46d298f72" />
-                <option name="method" value="POST" />
+                <option name="method" value="GET" />
                 <option name="name" value="pp" />
-                <option name="url" value="http://127.0.0.1:8000/celerytask" />
+                <option name="url" value="http://127.0.0.1:8000/celerytask/db857fae-9071-46f0-9604-ea585049ebf3" />
               </requestState>
             </list>
           </option>
