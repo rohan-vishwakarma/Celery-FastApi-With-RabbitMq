@@ -21,6 +21,10 @@ logger = get_task_logger(__name__)
 def addition(self, num1, num2):
     logger.info("TASK STARTED EXECUTING FOR ADDITION OF PROGRAM")
     time.sleep(5)
+    self.update_state(state="PROGRESS", meta={'progress': 50})
+    time.sleep(5)
+    self.update_state(state="PROGRESS", meta={'progress': 90})
+    time.sleep(1)
     return num1 + num2
 
 @celery.task
