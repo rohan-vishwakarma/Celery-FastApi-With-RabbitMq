@@ -1,9 +1,17 @@
-from fastapi import  FastAPI, Depends
+from fastapi import  FastAPI, Depends, Request
+from fastapi.responses import HTMLResponse
+
 from .dependencies import get_query_token, get_token_header
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.templating import Jinja2Templates
+from fastapi.staticfiles import StaticFiles
+
 from .db import SessionLocal, engine
 from app.Service.tasks import task_router
 app = FastAPI(dependencies=[Depends(get_query_token)])
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+templates = Jinja2Templates(directory="app/templates")
+
 origin = [
     "http://localhost:8000"
 ]
@@ -24,9 +32,9 @@ def get_db():
         print(e)
     finally:
         db.close()
-@app.get('/')
-async def index(token: str = None):
-    return [{"message" : "this is the index page for FastAPI web application"}]
+@app.get('/', response_class=HTMLResponse)
+async def index(request: Request, token: str = None):
+    return templates.TemplateResponse(request=request, name='index.html')
 
 
 

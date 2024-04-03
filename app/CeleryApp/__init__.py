@@ -4,22 +4,23 @@ from celery.utils.log import get_task_logger
 from app.CeleryApp.celeryconfig import *
 from celery.schedules import crontab
 
-celery = Celery('tasks', broker='pyamqp://guest:guest@localhost//', backend='redis://localhost:6379')
+celery = Celery('tasks', broker='pyamqp://guest:guest@localhost//', backend='redis://localhost:6379/2')
 celery.config_from_object('app.CeleryApp.celeryconfig')
-celery.conf.beat_schedule = {
-    'add-every-minutes': {
-            'task': 'app.CeleryApp.schedule_job',
-            'schedule': crontab(),
-            'args': ("hello", "rohan")
-        },
-}
+#
+# celery.conf.beat_schedule = {
+#     'add-every-minutes': {
+#             'task': 'app.CeleryApp.schedule_job',
+#             'schedule': crontab(),
+#             'args': ("hello", "rohan")
+#         },
+# }
 
 logger = get_task_logger(__name__)
 
-@celery.task()
-def addition(num1, num2 ):
+@celery.task(bind=True)
+def addition(self, num1, num2):
     logger.info("TASK STARTED EXECUTING FOR ADDITION OF PROGRAM")
-    time.sleep(10)
+    time.sleep(5)
     return num1 + num2
 
 @celery.task
