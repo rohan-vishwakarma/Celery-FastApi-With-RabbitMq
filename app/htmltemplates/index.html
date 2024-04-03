@@ -19,15 +19,21 @@
 
     <div class="container">
         <div class="row">
+            <h4>{%if mess != '' %}
+                {{mess}}
+                {%endif%}
+            </h4>
             <div class="col-sm-4">
                 
             </div>
             <div class="col-sm-4">
-                <form method="post">
+                <form method="post" action="/celerytask">
                     <br>
                     Num1<input type="text" class="form-control form-control-sm" name="num1" id="num1">
                     <br>
                     Num2<input type="text" class="form-control form-control-sm" name="num2" id="num2">
+                    <br>
+                    <button class="btn btn-info" type="submit">ADD</button>
                 </form>
             </div>
             <div class="col-sm-4">

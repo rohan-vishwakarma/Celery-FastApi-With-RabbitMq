@@ -10,7 +10,7 @@ from .db import SessionLocal, engine
 from app.Service.tasks import task_router
 app = FastAPI(dependencies=[Depends(get_query_token)])
 app.mount("/static", StaticFiles(directory="app/static"), name="static")
-templates = Jinja2Templates(directory="app/templates")
+templates = Jinja2Templates(directory="app/htmltemplates")
 
 origin = [
     "http://localhost:8000"
@@ -34,7 +34,8 @@ def get_db():
         db.close()
 @app.get('/', response_class=HTMLResponse)
 async def index(request: Request, token: str = None):
-    return templates.TemplateResponse(request=request, name='index.html')
+    dict = {}
+    return templates.TemplateResponse(request=request, name='index.html',context=dict)
 
 
 

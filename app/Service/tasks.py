@@ -1,7 +1,10 @@
+
 try:
     import redis
-    from fastapi import APIRouter, Form
+    from fastapi import APIRouter, Form, Request
     from typing import Annotated
+    from fastapi.responses import HTMLResponse, RedirectResponse
+
     from celery.utils.log import get_task_logger
     from celery.result import AsyncResult
     from redis import Redis
@@ -9,9 +12,14 @@ try:
     from app.CeleryApp import addition
     task_router = APIRouter()
     from app.CeleryApp import celery
+    from fastapi.templating import Jinja2Templates
+
 except Exception as e:
     print(e)
 redis_instance = redis.Redis(host='localhost', port=6379, db='0')
+
+templates = Jinja2Templates(directory="app/htmltemplates")
+
 
 
 
@@ -22,17 +30,21 @@ def on_raw_message(body):
     redis_value = redis_instance.get(redis_key)
     redis_instance.flushdb()
 
-
-@task_router.post('/')
-async def addition_task(num1 : Annotated[str, Form()], num2: Annotated[str, Form()]):
+@task_router.post('/', response_class=HTMLResponse)
+async def addition_task(request: Request,num1: Annotated[str, Form()], num2: Annotated[str, Form()]):
     try:
+
         taskk = celery.send_task('app.CeleryApp.addition', kwargs={"num1" : int(num1), "num2" : int(num2)}, retries=0)
 
         res = taskk.get(on_message = on_raw_message, propagate=False)
-        print("Result of the task is " , res)
+        print("Result of the task is " , res, "And Task id is :", taskk.id)
         print(f"Celery Task invoked for addition program, initial state is {taskk.status} & task Id is {taskk.id}")
-        return {"Task Result is ": taskk.id, "status" : taskk.status }
+        # return {"Task Result is ": taskk.id, "status" : taskk.status }
         print("Task completed")
+        mess = str(f'Result of the task is {res} And Task id is  {taskk.id}')
+        return templates.TemplateResponse(request=request, name='index.html', context={'mess': mess})
+
+
     except Exception as e:
         print(e)
         print("Something went wrong")
